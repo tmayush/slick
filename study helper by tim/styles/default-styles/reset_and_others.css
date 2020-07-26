@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&f&family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::-moz-focus-inner {
+  border: 0;
+}
+*:-moz-focusring {
+  border: 0;
+  outline: none;
+}
+input,
+textarea,
+button {
+  outline: none;
+  border: 0;
+}
+:root {
+  font-size: 10px;
+}
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+.anchor {
+  text-decoration: none;
+  color: #000000;
+}
+li {
+  list-style: none;
+}
+::selection {
+  background-color: #65c6ff8f;
+}
+.no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none;
+  user-select: none;
+}
+.company-logo {
+  letter-spacing: 0.6rem;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- CSS RESET -->
+    <link rel="stylesheet" href="/styles/default-styles/reset_and_others.css" />
+    <!-- CORE COMPONENTS -->
+    <link rel="stylesheet" href="/styles/nav/nav-desktop.css" />
+    <link rel="stylesheet" href="/styles/footer/footer-desktop.css" />
+    <!--------------PAGE CSS------------------->
+    <link rel="stylesheet" href="/styles/home/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 700px)"
+      href="styles/home/style-mobile.css"
+    />
+    <title>Slick</title>
+  </head>
+  <body id="home">
+    <!-- NAVIGATION -->
+    <nav class="test"></nav>
+    <!---------------------------MAIN------------------------>
+    <main>
+      <!--------------------SHOWCASE SECTION------------------>
+      <section>
+        <div class="showcase-section">
+          <h1 class="showcase-component welcome-message">
+            Hey, Welcome To
+            <span class="title-welcome-message company-logo">SLICK</span>
+          </h1>
+          <p class="showcase-component showcase-greeting">
+            This is a small website to help students to score well in their
+            respective examinations. We can help students in preparing for IIT,
+            Intermediate, Tenth or lower. We believe we can help you get better
+            grades by providing you support when you're stuck in a difficult
+            problem. However, we will not do your homework for you, we will just
+            give you guidance on how to solve problems.
+          </p>
+        </div>
+      </section>
+      <!---------------------CONTENT-------------------------->
+      <section class="second-section">
+        <div class="second-title section-title">
+          <h3 class="second-component we-provide-title">What We Provide</h3>
+        </div>
+        <div class="second-content section-content">
+          <div class="second-content-1of2">
+            <ul class="collection we-provide-list">
+              <li class="list-item we-provide-list-item">
+                Clarification of your doubts in Maths, Physics and Chemistry
+              </li>
+              <li class="list-item we-provide-list-item">
+                Photo and Video Explanation of Problems of any class upto
+                Intermediate. Any level(Board or competitive)
+              </li>
+              <li class="list-item we-provide-list-item">
+                Weightage of topics in JEE Mains
+              </li>
+              <li class="list-item we-provide-list-item">
+                Previous year solved JEE Mains papers. Both, yearwise and
+                chapter wise.
+              </li>
+              <li class="list-item we-provide-list-item">
+                Notes given by top teachers from famous institutions
+              </li>
+            </ul>
+          </div>
+          <div class="second-content-2of2">
+            <img
+              class="imgg no-select"
+              src="/Images/svg/undraw_quiz_nlyh.svg"
+              alt="we provide image"
+            />
+          </div>
+        </div>
+      </section>
+      <!-----------------------THIRD SECTION-------------->
+      <section id="contact-us-section" class="third-section">
+        <div class="third-title section-title">
+          <h3 class="third-component contact-us-title">Contact Us</h3>
+        </div>
+        <div class="third-content">
+          <p class="suggestion-details-parah">
+            Do you have any suggestions to help us improve our website? Please
+            don't hesitate to share your opinion.
+          </p>
+          <div class="suggestion-form-wrapper">
+            <form
+              class="suggestion-form"
+              name="Suggestions Form"
+              method="POST"
+              data-netlify="true"
+              id="suggestionsForm"
+            >
+              <div class="form-group name">
+                <label for="username">Name</label>
+                <input
+                  type="text"
+                  name="Name"
+                  id="suggestionUserName"
+                  placeholder="John"
+                  required
+                />
+              </div>
+              <div class="form-group email">
+                <label for="email"
+                  >Email Address
+                  <span class="optional-text">(optional)</span></label
+                >
+                <input
+                  type="email"
+                  name="User Email"
+                  id="userEmail"
+                  placeholder="john@ann.com"
+                />
+              </div>
+              <div class="form-group suggestion-area-wrapper">
+                <textarea
+                  class="suggestion-area"
+                  name="Suggestion"
+                  id="suggestionArea"
+                  placeholder="Hey, I think it would be amazing if you could add a feature where..."
+                  required
+                ></textarea>
+              </div>
+              <div class="form-group submit-wrapper">
+                <input id="submit-button" type="submit" value="Submit Form" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-------------------FOOTER--------------------->
+    <footer></footer>
+    <!--Scripts-->
+    <script src="/scripts/core-components.js"></script>
+    <script src="/scripts/app.js"></script>
+  </body>
+</html>

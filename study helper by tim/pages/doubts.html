@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- CSS RESET -->
+    <link
+      rel="stylesheet"
+      href="../styles/default-styles/reset_and_others.css"
+    />
+    <!-- CORE COMPONENTS -->
+    <link rel="stylesheet" href="../styles/nav/nav-desktop.css" />
+    <link rel="stylesheet" href="../styles/footer/footer-desktop.css" />
+    <!-- PAGE STYLES -->
+    <link rel="stylesheet" href="../styles/doubts/doubts.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 500px)"
+      href="Styles/about/about-mobile.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      media="(prefers-color-scheme: dark)"
+      href="Styles/about/about-dark.css"
+    /> -->
+    <title>SLICK | Doubts</title>
+  </head>
+  <body id="about">
+    <!--------------------NAVIGATION----------------->
+    <nav></nav>
+    <main>
+      <!---------------------DOUBTS UPLOAD--------------->
+      <section class="first-section upload-section">
+        <div class="first-component first-title-wrapper section-title-wrapper">
+          <h3 class="section-title upload-title">Ask Doubts</h3>
+        </div>
+        <div class="second-component second-content section-content">
+          <form
+            name="Doubts Form"
+            method="POST"
+            data-netlify="true"
+            id="uploadForm"
+            class="upload-form"
+          >
+            <!-- Basic Details -->
+            <div class="form-group form-group-name">
+              <label for="Name" class="user-name-label">Name</label>
+              <input
+                class="user-name-input"
+                id="uploadFormUserName"
+                type="text"
+                placeholder="John"
+                required
+              />
+            </div>
+            <!-- Conact Details -->
+            <div class="form-group form-group-email">
+              <label for="Email" class="user-email-label">Email</label>
+              <input
+                type="email"
+                name="userEmail"
+                id="userEmail"
+                placeholder="john@ann.com"
+              />
+            </div>
+            <h6 class="form-group or-text or-text-1">OR</h6>
+            <div class="form-group form-group-phoneNumber">
+              <label for="Phone NUmber" class="user-phone-label"
+                >Phone Number</label
+              >
+              <input type="text" name="userPhoneNumber" id="userPhoneNumber" />
+            </div>
+            <hr class="seperation-contact" />
+            <!-- Upload File -->
+            <div class="form-group form-group-doubtFile">
+              <label for="Doubt File" class="user-file-label">File</label>
+              <input type="file" name="Doubt Document" id="userFile" />
+            </div>
+            <h6 class="form-group or-text or-text-2">OR</h6>
+            <div class="form-group form-group-userDoubtText">
+              <label for="Doubt Text" class="userDoubtText-label"
+                >Type Your Doubt</label
+              ><textarea
+                class="user-doubt-textarea"
+                name="User Doubt Text"
+                id="userDoubtText"
+              ></textarea>
+            </div>
+            <div class="form-group submit-wrapper">
+              <input
+                id="submitDoubtFormButton"
+                type="submit"
+                value="Submit Doubt"
+              />
+            </div>
+          </form>
+        </div>
+      </section>
+      <!------------------/DOUBTS UPLOAD---------->
+    </main>
+    <!-------------------FOOTER--------------------->
+    <footer></footer>
+    <script src="/scripts/core-components.js"></script>
+    <script src="/scripts/app.js"></script>
+  </body>
+</html>
