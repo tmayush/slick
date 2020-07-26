@@ -1,1 +1,36 @@
-html{font-size:10px}*{margin:0;padding:0;box-sizing:border-box}body{font:20px roboto,sans-serif;overflow-x:hidden}.anchor{text-decoration:none;color:#fff}li{list-style:none}::selection{background-color:#65c6ff8f}input:focus{outline:0}main{height:90vh;display:flex;flex-direction:column;justify-content:center;align-items:center}h1,p{margin:1rem 0}
+html {
+  font-size: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font: 20px roboto, sans-serif;
+  overflow-x: hidden;
+}
+.anchor {
+  text-decoration: none;
+  color: #fff;
+}
+li {
+  list-style: none;
+}
+::selection {
+  background-color: #65c6ff8f;
+}
+input:focus {
+  outline: 0;
+}
+main {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1,
+p {
+  margin: 1rem 0;
+}

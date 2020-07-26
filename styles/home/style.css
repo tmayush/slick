@@ -1,1 +1,195 @@
-@import url(https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap);*{margin:0;padding:0;box-sizing:border-box}input,textarea{outline:0;border:0}html{font-size:10px;--primary-color:#0d1b2a;--primary-support:#1b263b;--fun-color-1:#fed766;--fun-color-2:#009fb7;--fun-color-3:#272727;--font-color-1:#fdfdfc}body{font-family:Roboto,Arial,sans-serif}.anchor{text-decoration:none;color:#000}li{list-style:none}::selection{background-color:#65c6ff8f}.no-select{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;pointer-events:none;user-select:none}.showcase-section{display:flex;flex-direction:column;height:95vh;justify-content:center;align-items:center;color:var(--primary-color)}.showcase-component{margin:2rem 0;width:120rem}.showcase-section h1{font:9rem Cabin;font-weight:800}.welcome-message{text-align:center}.title-welcome-message{position:relative;background-color:#fed86605;border-radius:.5rem}.title-welcome-message::after{content:"";width:100%;height:1rem;position:absolute;background-color:#fed8667a;bottom:.1rem;left:0}.showcase-section p{font-size:2.5rem;line-height:3.8rem}.second-section{background-color:#fafafa}.section-title{font-size:3.5rem;padding:2rem}.second-content{display:grid;grid-template-columns:repeat(auto-fit,minmax(20rem,1fr))}.second-content-1of2{padding-left:4rem}.we-provide-list{margin-left:2rem;font-size:2rem}.we-provide-list-item{list-style:decimal;margin:1.5rem 0;line-height:3rem}.second-content-2of2{display:flex;justify-content:center;align-items:center}.imgg{margin-bottom:3rem;width:60%}.third-section{background-color:#141414;color:#fff;padding-bottom:5rem}.third-content{display:flex;flex-direction:column;align-items:center}.suggestion-details-parah{margin-bottom:2rem;font-size:2rem}.suggestion-form-wrapper{width:110rem;background-color:#222;color:var(--font-color-1);border-radius:.5rem;margin:2rem 0;padding:3rem}.suggestion-form{display:grid;grid-template-columns:auto auto;font-size:2rem}.form-group{margin:1rem 0}.email,.name{display:flex;justify-content:center}input[type=email],input[type=text]{font-size:1.6rem;margin:0 1rem;padding:.5rem 1rem;border-radius:.2rem;width:30rem;background-color:#444;color:#f4f4f4}.optional-text{color:#bbb}.suggestion-area-wrapper{grid-column:span 2}.suggestion-area{border-radius:.5rem;border:0;width:100%;background-color:#444;resize:vertical;min-height:15rem;height:30rem;font:1.6rem Arial,Helvetica,sans-serif;color:#fbfbfb;padding:1rem}.submit-wrapper{display:flex;justify-content:center;grid-column:span 2}#submit-button{cursor:pointer;background-color:#4a4a4a;border-radius:.4rem;color:#f4f4f4;padding:1rem;font-size:1.8rem;font-family:Arial,Helvetica,sans-serif;font-weight:600;transition:all .1s ease-in}#submit-button:focus,#submit-button:hover{background-color:#393939;color:#c5c5c5}
+@import url(https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input,
+textarea {
+  outline: 0;
+  border: 0;
+}
+html {
+  font-size: 10px;
+  --primary-color: #0d1b2a;
+  --primary-support: #1b263b;
+  --fun-color-1: #fed766;
+  --fun-color-2: #009fb7;
+  --fun-color-3: #272727;
+  --font-color-1: #fdfdfc;
+}
+body {
+  font-family: Roboto, Arial, sans-serif;
+}
+.anchor {
+  text-decoration: none;
+  color: #000;
+}
+li {
+  list-style: none;
+}
+::selection {
+  background-color: #65c6ff8f;
+}
+.no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none;
+  user-select: none;
+}
+.showcase-section {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+}
+.showcase-component {
+  margin: 2rem 0;
+  width: 120rem;
+}
+.showcase-section h1 {
+  font: 9rem Cabin;
+  font-weight: 800;
+}
+.welcome-message {
+  text-align: center;
+}
+.title-welcome-message {
+  position: relative;
+  background-color: #fed86605;
+  border-radius: 0.5rem;
+}
+.title-welcome-message::after {
+  content: "";
+  width: 100%;
+  height: 1rem;
+  position: absolute;
+  background-color: #fed8667a;
+  bottom: 0.1rem;
+  left: 0;
+}
+.showcase-section p {
+  font-size: 2.5rem;
+  line-height: 3.8rem;
+}
+.second-section {
+  background-color: #fafafa;
+}
+.section-title {
+  font-size: 3.5rem;
+  padding: 2rem;
+}
+.second-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+.second-content-1of2 {
+  padding-left: 4rem;
+}
+.we-provide-list {
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+.we-provide-list-item {
+  list-style: decimal;
+  margin: 1.5rem 0;
+  line-height: 3rem;
+}
+.second-content-2of2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgg {
+  margin-bottom: 3rem;
+  width: 60%;
+}
+.third-section {
+  background-color: #141414;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+.third-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.suggestion-details-parah {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+.suggestion-form-wrapper {
+  width: 110rem;
+  background-color: #222;
+  color: var(--font-color-1);
+  border-radius: 0.5rem;
+  margin: 2rem 0;
+  padding: 3rem;
+}
+.suggestion-form {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 2rem;
+}
+.form-group {
+  margin: 1rem 0;
+}
+.email,
+.name {
+  display: flex;
+  justify-content: center;
+}
+input[type="email"],
+input[type="text"] {
+  font-size: 1.6rem;
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  width: 30rem;
+  background-color: #444;
+  color: #f4f4f4;
+}
+.optional-text {
+  color: #bbb;
+}
+.suggestion-area-wrapper {
+  grid-column: span 2;
+}
+.suggestion-area {
+  border-radius: 0.5rem;
+  border: 0;
+  width: 100%;
+  background-color: #444;
+  resize: vertical;
+  min-height: 15rem;
+  height: 30rem;
+  font: 1.6rem Arial, Helvetica, sans-serif;
+  color: #fbfbfb;
+  padding: 1rem;
+}
+.submit-wrapper {
+  display: flex;
+  justify-content: center;
+  grid-column: span 2;
+}
+#submit-button {
+  cursor: pointer;
+  background-color: #4a4a4a;
+  border-radius: 0.4rem;
+  color: #f4f4f4;
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  transition: all 0.1s ease-in;
+}
+#submit-button:focus,
+#submit-button:hover {
+  background-color: #393939;
+  color: #c5c5c5;
+}
